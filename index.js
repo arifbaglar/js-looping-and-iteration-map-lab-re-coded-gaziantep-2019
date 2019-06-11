@@ -20,7 +20,7 @@ function attributesToPhrase(array){
   const newdrivers=array.map(function(num){
     const element=num.name;
     const element2=num.hometown;
-    return element+'is from'+element2;
+    return element+' is from '+element2;
   });
   return newdrivers;
 }

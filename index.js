@@ -18,10 +18,11 @@ function nameToAttributes(array){
 
 function attributesToPhrase(array){
   const newdrivers=map(function(num){
-    const element=name.num
-    const element2=hometown.num
-    return element+'is from'+element2
-  })
+    const element=name.num;
+    const element2=hometown.num;
+    return element+'is from'+element2;
+  });
+  return newdrivers;
 }
 
 
